@@ -1,0 +1,48 @@
+/* Existing styles remain; adding new ones */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand h1 {
+    font-weight: 600;
+    color: #021024;
+}
+
+.nav-link {
+    color: #021024 !important;
+    padding: 8px 16px !important;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #021024 !important;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#search-results .record-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .user-avatar {
+        margin: 10px auto;
+    }
+}
